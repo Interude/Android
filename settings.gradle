@@ -1,0 +1,5 @@
+include ':mockdriver'
+// GENERATED FILE - DO NOT EDIT
+include ":"
+include ":CordovaLib"
+include ":app"
