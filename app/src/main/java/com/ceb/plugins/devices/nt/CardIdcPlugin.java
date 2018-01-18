@@ -15,7 +15,7 @@ import org.json.JSONObject;
  * 二代身份证阅读插件层
  */
 
-public class CardIdcPulgin extends DevicePlugin {
+public class CardIdcPlugin extends DevicePlugin {
 
     private CardIdc cardIdc = null;
 

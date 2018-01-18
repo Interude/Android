@@ -1,14 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ceb.business" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    id="com.ceb.business"
+    version="1.0.0"
+    xmlns="http://www.w3.org/ns/widgets">
     <feature name="Whitelist">
-        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
-        <param name="onload" value="true" />
+        <param
+            name="android-package"
+            value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param
+            name="onload"
+            value="true" />
     </feature>
     <name>CebBusiness</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
+    <author
+        email="dev@cordova.apache.org"
+        href="http://cordova.io">
         Apache Cordova Team
     </author>
     <!--<content src="http://192.168.0.103:8080/mpoin/#" />-->
@@ -24,20 +33,63 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
-    <preference name="loglevel" value="DEBUG" />
+    <preference
+        name="loglevel"
+        value="DEBUG" />
     <feature name="UtilPlugin">
-        <param name="android-package" value="com.ceb.plugins.utils.UtilPlugin" />
+        <param
+            name="android-package"
+            value="com.ceb.plugins.utils.UtilPlugin" />
     </feature>
     <feature name="CommonDevice">
-        <param name="android-package" value="  com.ceb.plugins.devices.nt.CommonDevicePlugin" />
+        <param
+            name="android-package"
+            value="  com.ceb.plugins.devices.nt.CommonDevicePlugin" />
     </feature>
     <feature name="PinPad">
-        <param name="android-package" value="com.ceb.plugins.devices.nt.PinPadPlugin" />
+        <param
+            name="android-package"
+            value="com.ceb.plugins.devices.nt.PinPadPlugin" />
     </feature>
     <feature name="Swipe">
-        <param name="android-package" value="com.ceb.plugins.devices.nt.SwipePlugin" />
+        <param
+            name="android-package"
+            value="com.ceb.plugins.devices.nt.SwipePlugin" />
     </feature>
     <feature name="Navigation">
-        <param name="android-package" value="com.ceb.plugins.devices.nt.NavigationPlugin" />
+        <param
+            name="android-package"
+            value="com.ceb.plugins.devices.nt.NavigationPlugin" />
     </feature>
+
+    <!--接触是IC模块-->
+    <feature name="CardDip">
+        <param
+            name="android-package"
+            value="com.ceb.plugins.devices.nt.CardDipPlugin" />
+    </feature>
+    <!--非接是IC模块-->
+    <feature name="CardRfd">
+        <param
+            name="android-package"
+            value="com.ceb.plugins.devices.nt.CardRfdPlugin" />
+
+    </feature>
+    <!--二代证阅读模块-->
+    <feature name="CardIdc">
+        <param
+            name="android-package"
+            value="com.ceb.plugins.devices.nt.CardIdcPlugin" />
+
+    </feature>
+
+    <feature name="Finger">
+        <param
+            name="android-package"
+            value="com.ceb.plugins.devices.nt.FingerPlugin"
+            />
+
+    </feature>
+
+
 </widget>

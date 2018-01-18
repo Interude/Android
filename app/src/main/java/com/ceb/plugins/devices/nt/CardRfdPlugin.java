@@ -15,7 +15,7 @@ import org.json.JSONObject;
  * 非接IC模块
  */
 
-public class CardRfdPulgin extends DevicePlugin {
+public class CardRfdPlugin extends DevicePlugin {
 
     private CardRfd cardRfd = null;
 
