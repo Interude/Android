@@ -50,7 +50,7 @@ public class CardRfdPulgin extends DevicePlugin {
 
             mCallbackContext.success(gson.toJson(Data.createFail("json 解析错误")));
             return false;
-        }
+         }
 
 
     }
